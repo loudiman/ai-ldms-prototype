@@ -1,0 +1,14 @@
+# dependencies & build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# private — sent to the client by email, NOT published
+proposal/
+docs/
+*.docx
+
+# tooling / OS
+.claude/
+.DS_Store
+Thumbs.db

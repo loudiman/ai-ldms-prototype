@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #1a5c2a;
+  --color-brand-accent: #2e7d32;
+  --color-brand-light: #e8f5e9;
+  --color-brand-dark: #103d1c;
+  --color-ink: #1f2937;
+  --color-muted: #6b7280;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--color-ink);
+  background: #f3f4f6;
+}
+
+/* Leaflet sizing inside flex/grid containers */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  background: #aadaff;
+  font-family: inherit;
+}
+
+/* thin custom scrollbars for panels */
+.scroll-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
