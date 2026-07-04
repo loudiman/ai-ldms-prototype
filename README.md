@@ -41,4 +41,4 @@ All data in the prototype is simulated for demonstration purposes. The productio
 
 ---
 
-Prepared by [Your Name] — loudiamondmorados162@gmail.com
+Prepared by Lou Diamond Morados — loudiamondmorados162@gmail.com
