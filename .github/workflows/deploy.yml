@@ -10,9 +10,12 @@ permissions:
   pages: write
   id-token: write
 
+# Allow one Pages deployment at a time, but let in-progress production deploys finish.
+# GitHub's recommended setting — cancelling an in-progress deploy can cause
+# "Deployment failed, try again later" from the Pages backend.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
